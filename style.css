@@ -1,0 +1,46 @@
+.main{
+    background-color: rgb(8, 170, 153);
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 60px;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+    font: 'Ubuntu',sans-serif;
+}
+.logo
+{
+    max-width: 80px;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.navigation
+{
+    display: flex;
+}
+.navigation li
+{
+    list-style: none;
+}
+.navigation li a 
+{
+    position: relative;
+    color: yellow;
+    text-decoration: blueviolet;
+    margin-left: 40px;
+}
