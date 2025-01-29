@@ -44,3 +44,23 @@ header
     text-decoration: blueviolet;
     margin-left: 40px;
 }
+.content .text
+{
+    width: 100px;
+    max-width: 600px;
+}
+.content .texth h2
+{
+    color: rgb(132, 174, 90);
+    font-size: medium;
+    font-weight: 300;
+}
+p
+{
+    color: rgb(183, 0, 255);
+    margin: 30px;
+}
+h2
+{
+    color: brown;
+}
