@@ -49,7 +49,7 @@ header
     width: 100px;
     max-width: 600px;
 }
-.content .texth h2
+.content .text h2
 {
     color: rgb(132, 174, 90);
     font-size: medium;
@@ -57,10 +57,27 @@ header
 }
 p
 {
-    color: rgb(183, 0, 255);
+    color:crimson;
     margin: 30px;
 }
 h2
 {
     color: brown;
+}
+.slider
+{
+    position: relative;
+}
+.slider .slides
+{
+    display: none;
+}
+.slider .slides.active
+{
+    display: block;
+}
+.slides .slides img
+{
+    width: 100%;
+    max-width: 600px;
 }
